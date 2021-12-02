@@ -6,7 +6,7 @@ def sum(x):
     return count
 
 
-txtfile = open('data.txt')
+txtfile = open('data_day1.txt')
 L = []
 for line in txtfile:
     L.append(int(line.rstrip()))

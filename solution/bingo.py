@@ -1,7 +1,7 @@
 import csv
 
 table = []
-with open("data_day4.txt") as file:
+with open("data/data_day4.txt") as file:
     reader = csv.reader(file, delimiter=" ")
     for row in reader:
         table.append(row)

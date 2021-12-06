@@ -1,7 +1,7 @@
 import csv
 import numpy as np
 data = []
-with open("data_day5.txt") as file:
+with open("data/data_day5.txt") as file:
     reader = csv.reader(file, delimiter=" ")
     for row in reader:
         data.append(row)

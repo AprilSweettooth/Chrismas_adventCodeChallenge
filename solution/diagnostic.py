@@ -8,7 +8,7 @@ import csv
 
 # print(type(list[0][0]))
 
-txtfile = open('data_day3.txt')
+txtfile = open('data/data_day3.txt')
 L = []
 for line in txtfile:
     L.append(str(line.rstrip()))

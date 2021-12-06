@@ -1,4 +1,4 @@
-txtfile = open('data_day2.txt')
+txtfile = open('data/data_day2.txt')
 L = []
 for line in txtfile:
     L.append(str(line.rstrip()))
